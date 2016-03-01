@@ -1,0 +1,33 @@
+{
+  "name": "simple_modular_patterns_and_tests",
+  "version": "0.1.0",
+  "description": "Use modules in Node and test them with Mocha and Chai",
+  "main": "greet.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studstill/simple_modular_patterns_and_tests.git"
+  },
+  "keywords": [
+    "Modules",
+    "Mocha",
+    "Chai",
+    "Testing",
+    "TDD"
+  ],
+  "author": "Jason Studstill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studstill/simple_modular_patterns_and_tests/issues"
+  },
+  "homepage": "https://github.com/studstill/simple_modular_patterns_and_tests#readme"
+}

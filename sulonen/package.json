@@ -1,0 +1,22 @@
+{
+  "name": "sulonen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Sulonen",
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  },
+  "description": "Code Assignment: 1 Mar 2016",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sulonen/simple_modular_patterns_and_tests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sulonen/simple_modular_patterns_and_tests/issues"
+  },
+  "homepage": "https://github.com/sulonen/simple_modular_patterns_and_tests#readme"
+}

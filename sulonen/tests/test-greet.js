@@ -12,6 +12,6 @@ describe('testing greet function from greet.js', function(){
 describe('testing presence of arguments with greet.js', function() {
   process.argv[2] = 'kevin';
   it('greet should return "hello, kevin"', function() {
-    expect(greet(process.argv[2])).to.equal('hello, kevin');
+    expect(greet()).to.equal('hello, kevin');
   });
 });

@@ -8,4 +8,6 @@ function greet(name) {
   }
 }
 
+if (process.argv[2]) console.log(greet(process.argv[2]));
+
 module.exports = greet;

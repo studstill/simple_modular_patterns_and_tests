@@ -2,7 +2,6 @@
 var gulp = require('gulp');
 var lint = require('gulp-eslint');
 var mocha = require('gulp-mocha');
-// var watch = require('gulp-watch');
 var paths = ['*.js', '/greet.js', 'test/*.js'];
 
 

@@ -59,6 +59,8 @@ gulp.task('mocha', function(){
     .pipe(mocha({reporter: 'nyan'}));
 });
 
-gulp.task('default', ['lint', 'mocha']);
+gulp.task('watch', function(){
+  gulp.watch(path, ['lint', 'mocha']);
+});
 
-gulp.watch(path, ['lint', 'mocha']);
+gulp.task('default', ['lint', 'mocha', 'watch']);

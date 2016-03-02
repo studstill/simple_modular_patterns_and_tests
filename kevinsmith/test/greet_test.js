@@ -1,7 +1,7 @@
 'use strict';
 
 var expect =  require('chai').expect;
-var greetObject = require(__dirname + '/../greet.js');
+var greetObject = require(__dirname + '/../lib/greet.js');
 
 describe('testing functions in greet.js', function(){
     it('Should return "hello Kevin"', function(){

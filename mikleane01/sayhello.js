@@ -1,6 +1,12 @@
 'use strict';
 
-var hello = require(__dirname + '/greet');
-var greeting = hello('Sunshine');
+var greet = require(__dirname + '/greet');
 
-console.log(greeting);
+var hello = function(){
+  var greeting = greet(process.argv[2] || 'Sunshine');
+  console.log(greeting);
+  return greeting;
+};
+hello();
+
+module.exports = hello;

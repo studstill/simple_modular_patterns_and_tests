@@ -1,9 +1,8 @@
 var gulp = require('gulp');
 var  mocha = require('gulp-mocha');
 var  eslint = require('gulp-eslint');
-var  watch = require('gulp-watch');
 
-var files = ['gulpfile.js', __dirname + '/lib/**/*.js', __dirname +'/test/**/*.js'];
+var files = ['gulpfile.js', __dirname + '/lib/**/*.js', __dirname + '/test/**/*.js'];
 
 gulp.task('mocha', function() {
   return gulp.src(__dirname + '/test/greetspec.js', {read: false})
@@ -18,5 +17,5 @@ gulp.task('lint', function() {
 });
 
 gulp.task('watch', function() {
-  watch(files, ['mocha', 'lint']);
+  gulp.watch(files, ['mocha', 'lint']);
 });

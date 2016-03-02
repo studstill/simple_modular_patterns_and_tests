@@ -1,5 +1,5 @@
 'use strict';
-var greet = require(__dirname + '/../greet.js');
+var greet = require(__dirname + '/../greet');
 
 var expect = require('chai').expect;
 

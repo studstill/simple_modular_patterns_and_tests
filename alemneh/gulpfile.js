@@ -13,7 +13,7 @@ gulp.task('mocha', function() {
 //Run eslint linter tool
 gulp.task('lint', function() {
   return gulp.src(files)
-    .pipe(eslint({
+    .pipe(eslint({//Commented out the .eslintrc file and added option to lint task
       'rules': {
         'no-console': 0,
         'indent': [

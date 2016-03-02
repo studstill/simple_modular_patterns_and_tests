@@ -1,0 +1,30 @@
+{
+  "name": "jamielim",
+  "version": "0.1.0",
+  "description": "gulp and package.json assignment",
+  "main": "sayHello.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalynnlim/simple_modular_patterns_and_tests.git"
+  },
+  "author": "Jamie Lim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jalynnlim/simple_modular_patterns_and_tests/issues"
+  },
+  "homepage": "https://github.com/jalynnlim/simple_modular_patterns_and_tests#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0"
+  }
+}

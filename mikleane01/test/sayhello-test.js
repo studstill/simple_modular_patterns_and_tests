@@ -6,7 +6,7 @@ var hello = require(__dirname + '/../greet');
 
 describe ('testing greet function from greet.js', function() {
   it('greet should return "Hello, Kitty!"', function(){
-    expect(hello('Kitty')).to.equal("Hello, Kitty!");
+    expect(hello('Kitty')).to.equal('Hello, Kitty!');
   });
 });
 
@@ -20,6 +20,6 @@ describe ('testing that terminal will accept a variable and output string', func
 describe('testing the if else argument', function(){
   it('if process.argv.length is <=2 return greeting', function(){
     var greeting = hello('Sunshine');
-    expect(greeting).to.equal("Hello, Sunshine!");
-  })
+    expect(greeting).to.equal('Hello, Sunshine!');
+  });
 });

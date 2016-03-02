@@ -1,9 +1,5 @@
 'use strict';
 
-exports = module.exports;
-
-exports.greet = function(name) {
+module.exports = function(name) {
   return 'hello ' + name;
 };
-
-exports.argInput = process.argv[2];

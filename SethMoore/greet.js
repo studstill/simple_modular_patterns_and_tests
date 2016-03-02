@@ -1,7 +1,10 @@
 'use strict';
 
-var required = require(__dirname + '/required');
-var greet = required.greet;
-var argInput = required.argInput;
+var greet = require(__dirname + '/required');
 
-console.log(greet(argInput));
+var greeting = module.exports = function() {
+  var hi = greet(process.argv[2] || 'chicken');
+  return hi;
+};
+
+greeting();

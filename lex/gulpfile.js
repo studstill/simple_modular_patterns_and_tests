@@ -4,8 +4,6 @@ var gulp = require('gulp');
 var eslint = require('gulp-eslint');
 var mocha = require('gulp-mocha');
 
-var path = ['*.js', 'test/*.js'];
-
 var eslintRules = {
   'rules': {
     'no-console': 0,
@@ -46,7 +44,7 @@ var eslintRules = {
   'extends': 'eslint:recommended'
 };
 
-
+var path = ['*.js', 'test/*.js'];
 
 gulp.task('lint', function(){
   return gulp.src(path)
@@ -63,9 +61,4 @@ gulp.task('mocha', function(){
 
 gulp.task('default', ['lint', 'mocha']);
 
-var watcher = gulp.watch(path, ['lint', 'mocha']);
-
-// watcher.on('change', function(event) {
-//   console.log('Filename: ' + event.path);
-//   console.log('Event type: ' + event.type);
-// })
+gulp.watch(path, ['lint', 'mocha']);

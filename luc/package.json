@@ -1,0 +1,29 @@
+{
+  "name": "simple_modular_patterns_and_tests",
+  "version": "0.1.0",
+  "description": "gulp linting and testing greet",
+  "main": "test/testGreet.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ho-Luc/simple_modular_patterns_and_tests.git"
+  },
+  "author": "Luc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ho-Luc/simple_modular_patterns_and_tests/issues"
+  },
+  "homepage": "https://github.com/Ho-Luc/simple_modular_patterns_and_tests#readme"
+}
